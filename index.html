@@ -3,24 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DC Yapper Test</title>
+<title>DC Yapper Tests</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: #1a1a1a; display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 20px; }
-  .wrap { text-align: center; max-width: 400px; width: 100%; }
-  video { width: 100%; border-radius: 12px; }
-  p { color: rgba(255,255,255,0.5); font-family: sans-serif; font-size: 11pt; margin-top: 16px; }
-  a { color: #e8547a; }
+  body { background: #1a1a1a; padding: 24px; font-family: sans-serif; }
+  h2 { color: rgba(255,255,255,0.4); font-size: 8pt; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px; }
+  .vid { margin-bottom: 36px; }
+  video { width: 100%; max-width: 380px; border-radius: 12px; display: block; }
+  .label { color: rgba(255,255,255,0.6); font-size: 10pt; margin-top: 10px; }
+  .label span { color: #e8547a; }
+  a { color: #e8547a; font-size: 9pt; }
 </style>
 </head>
 <body>
-<div class="wrap">
+<div class="vid">
+  <h2>V2 — Latest</h2>
+  <video controls playsinline>
+    <source src="dc-yapper-v2.mp4" type="video/mp4">
+  </video>
+  <div class="label"><span>Brandon Expressive · Chill Brian voice</span><br>Brief 002 · Plateau angle<br><a href="dc-yapper-v2.mp4" download>⬇ Download</a></div>
+</div>
+<div class="vid">
+  <h2>V1 — First Test</h2>
   <video controls playsinline>
     <source src="dc-yapper-test.mp4" type="video/mp4">
   </video>
-  <p>DC Yapper Test · Brief 001 · Hook #1<br>
-  <a href="dc-yapper-test.mp4" download>⬇ Download MP4</a> &nbsp;·&nbsp;
-  <a href="dc-yapper-briefs.pdf" download>⬇ Download Brief PDF</a></p>
+  <div class="label"><span>Bradley · Dynamic Derek voice</span><br>Brief 001 · Knee pain angle<br><a href="dc-yapper-test.mp4" download>⬇ Download</a></div>
 </div>
 </body>
 </html>
