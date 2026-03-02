@@ -6,29 +6,35 @@
 <title>DC Yapper Tests</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: #1a1a1a; padding: 24px; font-family: sans-serif; }
-  h2 { color: rgba(255,255,255,0.4); font-size: 8pt; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px; }
-  .vid { margin-bottom: 36px; }
+  body { background: #1a1a1a; padding: 24px; font-family: -apple-system, sans-serif; }
+  h2 { color: #e8547a; font-size: 8pt; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px; }
+  .vid { margin-bottom: 40px; }
   video { width: 100%; max-width: 380px; border-radius: 12px; display: block; }
-  .label { color: rgba(255,255,255,0.6); font-size: 10pt; margin-top: 10px; }
-  .label span { color: #e8547a; }
-  a { color: #e8547a; font-size: 9pt; }
+  .label { color: rgba(255,255,255,0.55); font-size: 9.5pt; margin-top: 10px; line-height: 1.6; }
+  a { color: #e8547a; }
 </style>
 </head>
 <body>
 <div class="vid">
-  <h2>V2 — Latest</h2>
+  <h2>V3 — Latest ★</h2>
+  <video controls playsinline>
+    <source src="dc-yapper-v3.mp4" type="video/mp4">
+  </video>
+  <div class="label">Nik (Blue Sweater) · Mason Natural voice<br>Brief 002 · Plateau angle<br><a href="dc-yapper-v3.mp4" download>⬇ Download</a></div>
+</div>
+<div class="vid">
+  <h2>V2</h2>
   <video controls playsinline>
     <source src="dc-yapper-v2.mp4" type="video/mp4">
   </video>
-  <div class="label"><span>Brandon Expressive · Chill Brian voice</span><br>Brief 002 · Plateau angle<br><a href="dc-yapper-v2.mp4" download>⬇ Download</a></div>
+  <div class="label">Brandon Expressive · Chill Brian voice<br><a href="dc-yapper-v2.mp4" download>⬇ Download</a></div>
 </div>
 <div class="vid">
   <h2>V1 — First Test</h2>
   <video controls playsinline>
     <source src="dc-yapper-test.mp4" type="video/mp4">
   </video>
-  <div class="label"><span>Bradley · Dynamic Derek voice</span><br>Brief 001 · Knee pain angle<br><a href="dc-yapper-test.mp4" download>⬇ Download</a></div>
+  <div class="label">Bradley · Dynamic Derek voice<br><a href="dc-yapper-test.mp4" download>⬇ Download</a></div>
 </div>
 </body>
 </html>
